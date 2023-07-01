@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: alreaderXPRO.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '32'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  kotlin-tooling-metadata.json: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '2207281'
+  versionName: '0.95'

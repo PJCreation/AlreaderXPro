@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarSize="6.0dip" android:scrollbarThumbVertical="@drawable/thumb" android:scrollbarTrackVertical="@null" android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideInset" android:id="@id/scrollMain" android:paddingLeft="@dimen/dialog_padding_left" android:paddingTop="@dimen/dialog_padding_top" android:paddingRight="@dimen/dialog_padding_right" android:paddingBottom="@dimen/dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="false" android:smoothScrollbar="true" android:scrollbarFadeDuration="1000" android:scrollbarDefaultDelayBeforeFade="1000000" android:fadeScrollbars="false" android:fastScrollAlwaysVisible="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.neverland.viscomp.dialogs.MyEditText android:textAppearance="@style/StyleInfoSmall" android:gravity="left" android:id="@id/edit1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="textMultiLine|textNoSuggestions" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/edit_text_cursor" style="@style/ScrollBars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

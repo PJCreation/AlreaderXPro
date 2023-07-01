@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.neverland.viscomp.TBrightLayout android:orientation="vertical" android:id="@id/bright" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.neverland.viscomp.TClockFrame android:id="@id/clock" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignWithParentIfMissing="true">
+            <com.neverland.viscomp.PageCurlGLSurface android:id="@id/scroll" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.neverland.viscomp.TMainTextView android:id="@id/text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/menuSelect" android:background="@null" android:padding="1.0sp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/button_height">
+                    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonDictionary" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_g_translate" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonCopy" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_content_copy" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonAddBookmark" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_bookmark_border" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonClose" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_cancel" android:fontFamily="@font/materialiconsregular" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/button_height">
+                    <com.neverland.viscomp.dialogs.MenuButton android:enabled="false" android:textSize="@dimen/icon_font_size" android:id="@id/buttonShareText" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_share" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:enabled="false" android:textSize="@dimen/icon_font_size" android:id="@id/buttonShareLast" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_favour" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:enabled="false" android:textSize="@dimen/icon_font_size" android:id="@id/buttonTTS" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_headset" android:fontFamily="@font/materialiconsregular" />
+                    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonRight" android:background="@null" android:layout_width="@dimen/select_menu_button_width" android:layout_height="fill_parent" android:text="@string/font_icon_keyboard_arrow_right" android:fontFamily="@font/materialiconsregular" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_normal" android:layout_gravity="center_horizontal" android:id="@id/textInfo" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_height" android:text="backlight" android:textIsSelectable="false" android:textAlignment="center" />
+        </com.neverland.viscomp.TClockFrame>
+        <com.neverland.viscomp.TStatusView android:layout_gravity="top" android:id="@id/header" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.neverland.viscomp.TStatusView android:layout_gravity="bottom" android:id="@id/status" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.neverland.viscomp.TBrightLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_menu_size" android:id="@id/expandable_icon" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="@dimen/button_width" android:layout_height="@dimen/form_button_height" android:fontFamily="@font/materialiconsregular" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/label1" />
+    <com.neverland.viscomp.dialogs.MyTextView android:textAppearance="@style/StyleContextMenuText" android:textStyle="normal" android:gravity="center|left" android:id="@id/label1" android:focusable="false" android:layout_width="0.0dip" android:layout_height="@dimen/form_button_height" android:layout_margin="3.0dip" app:layout_constraintLeft_toRightOf="@id/expandable_icon" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

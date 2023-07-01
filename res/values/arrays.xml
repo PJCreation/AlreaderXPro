@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>Bookmark</item>
+        <item>Cite</item>
+        <item>Bookmark + Cite</item>
+    </string-array>
+    <integer-array name="marker_typesint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="marker_typesstr">
+        <item>Without marker</item>
+        <item>Red background</item>
+        <item>Yellow background</item>
+        <item>Green background</item>
+        <item>Underline</item>
+        <item>Red underline</item>
+        <item>Yellow underline</item>
+        <item>Green underline</item>
+    </string-array>
+    <integer-array name="marker_underlineint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="marker_underlinestr">
+        <item>Straight</item>
+        <item>Handwritten</item>
+        <item>Wavy</item>
+    </string-array>
+    <string-array name="opds_proxy_typesstr">
+        <item>DIRECT</item>
+        <item>HTTP</item>
+    </string-array>
+    <string-array name="opds_proxy_typesstr_23">
+        <item>DIRECT</item>
+        <item>HTTP</item>
+        <item>SOCKS</item>
+    </string-array>
+    <integer-array name="setting_fonts_spacewidthint">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100% (Default)</item>
+        <item>110%</item>
+        <item>120%</item>
+    </string-array>
+    <integer-array name="setting_pages_firstletterint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>Never</item>
+        <item>Each paragraph</item>
+        <item>First Paragraph</item>
+        <item>Classic Each paragraph</item>
+        <item>Classic First Paragraph</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>Settings</item>
+        <item>Settings + DB</item>
+        <item>Settings + Resources</item>
+        <item>All</item>
+    </string-array>
+    <integer-array name="settings_books_dialogint">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_books_dialogstr">
+        <item>No</item>
+        <item>Remove space</item>
+        <item>Remove space, replace dash</item>
+    </string-array>
+    <integer-array name="settings_clock_colorint">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_clock_colorstr">
+        <item>Auto</item>
+        <item>@string/setting_colors_colortitle</item>
+        <item>@string/setting_colors_colorflet</item>
+        <item>@string/setting_colors_colorcustom1</item>
+        <item>@string/setting_colors_colorcustom2</item>
+        <item>@string/setting_colors_colorcustom3</item>
+        <item>@string/setting_colors_colorcustom4</item>
+    </string-array>
+    <integer-array name="settings_color_usestatusback_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>Never</item>
+        <item>Only if skin</item>
+        <item>Always</item>
+    </string-array>
+    <integer-array name="settings_common_animation_alwaysint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>No</item>
+        <item>Horizontal Swipe Only</item>
+        <item>Always</item>
+    </string-array>
+    <integer-array name="settings_common_animation_typeint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>3D OpenGL type 1</item>
+        <item>3D OpenGL type 2</item>
+        <item>Left Shift</item>
+        <item>Right Shift</item>
+        <item>Wave</item>
+        <item>Two Page Shift</item>
+    </string-array>
+    <integer-array name="settings_common_backlighthardwaremin_int">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2% (Default)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <integer-array name="settings_common_backlightkeep_int">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>777</item>
+    </integer-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>System default</item>
+        <item>2 min</item>
+        <item>3 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>Always</item>
+    </string-array>
+    <integer-array name="settings_common_dictionaryint">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>14</item>
+        <item>16</item>
+        <item>15</item>
+        <item>17</item>
+        <item>13</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="settings_common_dictionarystr">
+        <item>GoldenDict/ColorDict 3</item>
+        <item>Fora Dictionary</item>
+        <item>Dictan</item>
+        <item>Lingvo</item>
+        <item>FreeDictionary</item>
+        <item>HedgeDict</item>
+        <item>Aard/Aard2 Dictionary</item>
+        <item>Google Translate</item>
+        <item>Google Translate (Popup)</item>
+        <item>Yandex Translate</item>
+        <item>Yandex Translate (Popup)</item>
+        <item>Google Search</item>
+        <item>Onyx</item>
+    </string-array>
+    <integer-array name="settings_common_fontscaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>System default</item>
+        <item>The Smallest</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Larger</item>
+        <item>The Largest</item>
+    </string-array>
+    <integer-array name="settings_common_gammamodeint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>No</item>
+        <item>For the whole page</item>
+        <item>Only for image</item>
+    </string-array>
+    <integer-array name="settings_common_gammavalueint">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </integer-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0 (Default)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <integer-array name="settings_common_hyphenationint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="settings_common_hyphenationstr">
+        <item>None</item>
+        <item>English</item>
+        <item>Русский</item>
+        <item>Русский + English</item>
+        <item>Русский + Deutsch</item>
+        <item>Український</item>
+        <item>Αρχαία Ελληνικά</item>
+        <item>Български</item>
+        <item>Český</item>
+        <item>Dansk</item>
+        <item>Nederlands</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Magyar</item>
+        <item>Icelandic</item>
+        <item>Gaeilge</item>
+        <item>Italiano</item>
+        <item>Νεοελληνική</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Român</item>
+        <item>Slovenski</item>
+        <item>Slovenčina</item>
+        <item>Español</item>
+        <item>Svenska</item>
+    </string-array>
+    <integer-array name="settings_common_langint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="settings_common_langstr">
+        <item>@string/settings_common_systemlangstr</item>
+        <item>Русский</item>
+        <item>English</item>
+        <item>Türk</item>
+        <item>Беларускі</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="settings_common_langstrreal">
+        <item></item>
+        <item>ru</item>
+        <item>en</item>
+        <item>tr</item>
+        <item>be</item>
+        <item>de</item>
+        <item>es</item>
+    </string-array>
+    <integer-array name="settings_common_libraryfirstletter_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>Always</item>
+        <item>Default</item>
+        <item>Only on large lists</item>
+        <item>Preferably not to use</item>
+    </string-array>
+    <integer-array name="settings_common_librarypath_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_librarypath_str">
+        <item>All Folders</item>
+        <item>/Books</item>
+        <item>/Books + /Download</item>
+        <item>/Books + /Download + /Bluetooth</item>
+    </string-array>
+    <integer-array name="settings_common_onyxeink_refreshrateint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>1000</item>
+    </integer-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>Always</item>
+        <item>After 1 turning</item>
+        <item>After 2 turning</item>
+        <item>After 3 turning</item>
+        <item>After 5 turning</item>
+        <item>After 7 turning</item>
+        <item>After 10 turning</item>
+        <item>After 20 turning</item>
+        <item>After 50 turning</item>
+        <item>After 75 turning</item>
+        <item>After 100 turning</item>
+        <item>None</item>
+    </string-array>
+    <integer-array name="settings_common_rotateint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <integer-array name="settings_common_rotateonyxint">
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>System default</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Reverse Portrait</item>
+        <item>Reverse Landscape</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>System default</item>
+        <item>Sensor</item>
+        <item>Portrait + Sensor</item>
+        <item>Landscape + Sensor</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Reverse Portrait</item>
+        <item>Reverse Landscape</item>
+    </string-array>
+    <integer-array name="settings_common_syncmanualmode_int17">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="settings_common_syncmanualmode_int21">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_common_syncmanualmode_str17">
+        <item>By Network</item>
+        <item>By Files</item>
+    </string-array>
+    <string-array name="settings_common_syncmanualmode_str21">
+        <item>By Network</item>
+        <item>By Files</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <integer-array name="settings_common_syncmode_int17">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="settings_common_syncmode_int21">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_common_syncmode_str17">
+        <item>No</item>
+        <item>By Network</item>
+        <item>By Files</item>
+    </string-array>
+    <string-array name="settings_common_syncmode_str21">
+        <item>No</item>
+        <item>By Network</item>
+        <item>By Files</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <integer-array name="settings_common_ttspause_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>None</item>
+        <item>Short</item>
+        <item>Middle</item>
+        <item>Long</item>
+    </string-array>
+    <integer-array name="settings_common_ttsreadnotes_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>No</item>
+        <item>At the place</item>
+        <item>At the end of the sentence</item>
+    </string-array>
+    <integer-array name="settings_common_ttsselectedtext_int">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>Read</item>
+        <item>Start reading</item>
+    </string-array>
+    <integer-array name="settings_common_ttstimer_int">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>90</item>
+    </integer-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>None</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>40 min</item>
+        <item>50 min</item>
+        <item>60 min</item>
+        <item>90 min</item>
+    </string-array>
+    <integer-array name="settings_controls_doubletapsint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="settings_controls_longtapint">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="settings_controls_verticalswipeint">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="settings_controls_verticalswipeint_eink">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="settings_interface_statusinfo_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>File Name</item>
+        <item>Title</item>
+        <item>Author</item>
+        <item>Title + Author</item>
+        <item>Chapter Name</item>
+        <item>Chapter Page</item>
+        <item>Reading time</item>
+    </string-array>
+    <integer-array name="settings_interface_theme21_int">
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>System Day</item>
+        <item>System Night</item>
+        <item>E Ink</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="settings_interface_theme28_int">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>System Default</item>
+        <item>System Day</item>
+        <item>System Night</item>
+        <item>E Ink</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="settings_interface_theme_int">
+        <item>3</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="settings_interface_theme_str">
+        <item>System</item>
+        <item>E Ink</item>
+        <item>Custom</item>
+    </string-array>
+    <integer-array name="settings_interface_themebutton_int">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+    <integer-array name="settings_manage_backint">
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="settings_manage_backint_onyx">
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="settings_manage_backstr">
+        <item>System</item>
+        <item>Menu</item>
+        <item>Hide</item>
+        <item>Backward + Hide</item>
+        <item>Backward + Menu</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>System</item>
+        <item>Menu</item>
+        <item>Hide</item>
+        <item>Backward + Hide</item>
+        <item>Backward + Menu</item>
+        <item>Next Page</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>None</item>
+        <item>Dictionary</item>
+        <item>Copy text</item>
+        <item>Quick Panel</item>
+        <item>Select text</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>Select text</item>
+        <item>Dictionary</item>
+        <item>Select + Dictionary</item>
+        <item>Actions</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>No action</item>
+        <item>Prev/Next</item>
+        <item>Next/Prev</item>
+        <item>Tone</item>
+        <item>Volume</item>
+        <item>Speed</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>Smooth Page scrolling</item>
+        <item>Smooth Line scrolling</item>
+        <item>Discrete Line scrolling</item>
+        <item>Do not use</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>Smooth Page scrolling</item>
+        <item>Discrete Line scrolling</item>
+        <item>Do not use</item>
+    </string-array>
+    <integer-array name="settings_naturalbacklightint_onyx">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>No</item>
+        <item>Cold</item>
+        <item>Warm</item>
+        <item>All</item>
+        <item>Temperature Cold/Warm</item>
+        <item>Temperature Warm/Cold</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>No</item>
+        <item>Warm</item>
+        <item>Cold</item>
+        <item>All</item>
+        <item>Temperature Cold/Warm</item>
+        <item>Temperature Warm/Cold</item>
+    </string-array>
+    <integer-array name="settings_opendialogs_taps_int">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>Open</item>
+        <item>Show Properties</item>
+    </string-array>
+    <integer-array name="settings_pages_columncountint">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>Auto</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Two in landscape</item>
+    </string-array>
+    <integer-array name="settings_pages_imagescaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>7</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>Auto</item>
+        <item>Original (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <integer-array name="settings_pages_notesonpageint">
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-5</item>
+        <item>-999</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>No</item>
+        <item>1 item on Page</item>
+        <item>2 items on Page</item>
+        <item>3 items on Page</item>
+        <item>5 items on Page</item>
+        <item>MAX items on Page</item>
+        <item>Popup</item>
+    </string-array>
+    <integer-array name="settings_pages_pagesizeint">
+        <item>-1</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </integer-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>Auto</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <integer-array name="settings_pages_progresswidthint">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>Default</item>
+        <item>Thicker</item>
+    </string-array>
+    <integer-array name="settings_pages_skincaleint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>Auto</item>
+        <item>Original (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <integer-array name="settings_pages_useheaderint">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>Never</item>
+        <item>Window Only</item>
+        <item>Full screen only</item>
+        <item>Always</item>
+    </string-array>
+    <integer-array name="settings_profile_numberint">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="settings_profile_numberstr">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>Сhange of voices is not available</item>
+    </string-array>
+</resources>

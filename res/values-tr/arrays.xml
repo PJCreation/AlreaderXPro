@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>Yer imi</item>
+        <item>Alıntı</item>
+        <item>Yer imi + Alıntı</item>
+    </string-array>
+    <string-array name="marker_typesstr">
+        <item>Etiketleme</item>
+        <item>Red background</item>
+        <item>Yellow background</item>
+        <item>Green background</item>
+        <item>Underline</item>
+        <item>Red underline</item>
+        <item>Yellow underline</item>
+        <item>Green underline</item>
+    </string-array>
+    <string-array name="marker_underlinestr">
+        <item>Straight</item>
+        <item>Handwritten</item>
+        <item>Wavy</item>
+    </string-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100% (Varsayılan)</item>
+        <item>110%</item>
+        <item>120%</item>
+    </string-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>Hiçbir zaman</item>
+        <item>Her paragraf</item>
+        <item>İlk paragraf</item>
+        <item>Klasik her paragraf</item>
+        <item>Klasik ilk paragraf</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>Settings</item>
+        <item>Settings + DB</item>
+        <item>Settings + Resources</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="settings_books_dialogstr">
+        <item>Hayır</item>
+        <item>Öndeki boşlukları kaldırın</item>
+        <item>Boşlukları kaldırın, kısa çizgileri değiştirin</item>
+    </string-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>Asla</item>
+        <item>Sadece cilt</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>Asla</item>
+        <item>Yalnızca kaydırma yaparken</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>3D OpenGL type 1</item>
+        <item>3D OpenGL type 2</item>
+        <item>Left Shift</item>
+        <item>Right Shift</item>
+        <item>Wave</item>
+        <item>Two Page Shift</item>
+    </string-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2% (Varsayılan)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>Sistemde olduğu gibi</item>
+        <item>2 dk.</item>
+        <item>3 dk.</item>
+        <item>5 dk.</item>
+        <item>10 dk.</item>
+        <item>30 dk.</item>
+        <item>Sürekli</item>
+    </string-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>Sistemde olduğu gibi</item>
+        <item>En küçük</item>
+        <item>Küçük</item>
+        <item>Normal</item>
+        <item>Büyük</item>
+        <item>Daha büyük</item>
+        <item>En büyük</item>
+    </string-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>No</item>
+        <item>For the whole page</item>
+        <item>Only for image</item>
+    </string-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0 (Varsayılan)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>Her zaman</item>
+        <item>Varsayılan</item>
+        <item>Yalnızca büyük listelerde</item>
+        <item>Kullanmamanız tavsiye edilir</item>
+    </string-array>
+    <string-array name="settings_common_librarypath_str">
+        <item>Tüm klasörler</item>
+        <item>/Kitablar</item>
+        <item>/Kitaplar + /İndir</item>
+        <item>/Kitaplar + /İndir + /Bluetooth</item>
+    </string-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>Her zaman</item>
+        <item>1 sayfalamadan sonra</item>
+        <item>2 sayfalamadan sonra</item>
+        <item>3 sayfalamadan sonra</item>
+        <item>5 sayfalamadan sonra</item>
+        <item>7 sayfalamadan sonra</item>
+        <item>10 sayfalamadan sonra</item>
+        <item>20 sayfalamadan sonra</item>
+        <item>50 sayfalamadan sonra</item>
+        <item>75 sayfalamadan sonra</item>
+        <item>100 sayfalamadan sonra</item>
+        <item>Güncellemeyin</item>
+    </string-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>Sistemde olduğu gibi</item>
+        <item>Portre görünümü</item>
+        <item>Manzara görünümü</item>
+        <item>Portre 180</item>
+        <item>Manzara 180</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>Sistemde olduğu gibi</item>
+        <item>Sensör</item>
+        <item>Portre + Sensör</item>
+        <item>Manzara + Sensör</item>
+        <item>Portre</item>
+        <item>Manzara</item>
+        <item>Ters Portre</item>
+        <item>Ters Manzara</item>
+    </string-array>
+    <string-array name="settings_common_syncmanualmode_str17">
+        <item>Ağ üzerinden</item>
+        <item>Dosya paylaşımı</item>
+    </string-array>
+    <string-array name="settings_common_syncmanualmode_str21">
+        <item>Ağ üzerinden</item>
+        <item>Dosya paylaşımı</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <string-array name="settings_common_syncmode_str17">
+        <item>Hayır</item>
+        <item>Ağ üzerinden</item>
+        <item>Dosya paylaşımı</item>
+    </string-array>
+    <string-array name="settings_common_syncmode_str21">
+        <item>Hayır</item>
+        <item>Ağ üzerinden</item>
+        <item>Dosya paylaşımı</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>Hiçbiri</item>
+        <item>Kısa</item>
+        <item>Orta</item>
+        <item>Uzun</item>
+    </string-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>Hayır</item>
+        <item>Yerde</item>
+        <item>Cümlenin sonunda</item>
+    </string-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>Oku</item>
+        <item>Okumaya başlayın</item>
+    </string-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>Hiçbiri</item>
+        <item>5 dk.</item>
+        <item>10 dk.</item>
+        <item>15 dk.</item>
+        <item>20 dk.</item>
+        <item>25 dk.</item>
+        <item>30 dk.</item>
+        <item>40 dk.</item>
+        <item>50 dk.</item>
+        <item>60 dk.</item>
+        <item>90 dk.</item>
+    </string-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>Dosya adı</item>
+        <item>İsim</item>
+        <item>Yazar</item>
+        <item>İsim + Yazar</item>
+        <item>Chapter Name</item>
+        <item>Chapter Page</item>
+        <item>Okuma zamanı</item>
+    </string-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>Sistem aydınlık</item>
+        <item>Sistem karanlık</item>
+        <item>E Ink</item>
+        <item>Kullanıcı</item>
+    </string-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>Sistemde olduğu gibi</item>
+        <item>Sistem aydınlık</item>
+        <item>Sistem karanlık</item>
+        <item>E Ink</item>
+        <item>Kullanıcı</item>
+    </string-array>
+    <string-array name="settings_interface_theme_str">
+        <item>Sistem aydınlık</item>
+        <item>E Ink</item>
+        <item>Kullanıcı</item>
+    </string-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>Seçenek 1</item>
+        <item>Seçenek 2</item>
+        <item>Seçenek 3</item>
+        <item>Seçenek 4</item>
+    </string-array>
+    <string-array name="settings_manage_backstr">
+        <item>System</item>
+        <item>Menü</item>
+        <item>Gizle</item>
+        <item>Geri + Gizle</item>
+        <item>Geri + Menü</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>System</item>
+        <item>Menü</item>
+        <item>Gizle</item>
+        <item>Geri + Gizle</item>
+        <item>Geri + Menü</item>
+        <item>Sonraki sayfa</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>Hayır</item>
+        <item>Sözlük</item>
+        <item>Metin kopyalama</item>
+        <item>Hızlı menü</item>
+        <item>Metin seçimi</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>Metin seçimi</item>
+        <item>Sözlük</item>
+        <item>Select + Dictionary</item>
+        <item>Eylemler</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>No action</item>
+        <item>Prev/Next</item>
+        <item>Next/Prev</item>
+        <item>Tone</item>
+        <item>Volume</item>
+        <item>Speed</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>Düz sayfa kaydırma</item>
+        <item>Düz satır kaydırma</item>
+        <item>Satır kaydırma</item>
+        <item>Kullanmayın</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>Düz sayfa kaydırma</item>
+        <item>Satır kaydırma</item>
+        <item>Kullanmayın</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>Hayır</item>
+        <item>Soğuk</item>
+        <item>Ilık</item>
+        <item>Herşey</item>
+        <item>Temperature Cold/Warm</item>
+        <item>Temperature Warm/Cold</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>Hayır</item>
+        <item>Ilık</item>
+        <item>Soğuk</item>
+        <item>Herşey</item>
+        <item>Temperature Cold/Warm</item>
+        <item>Temperature Warm/Cold</item>
+    </string-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>Aç</item>
+        <item>Kitap özellikleri</item>
+    </string-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>Oto</item>
+        <item>Bir</item>
+        <item>İki</item>
+        <item>Manzarada iki</item>
+    </string-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>Oto</item>
+        <item>Orijinal (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>Hayır</item>
+        <item>Sayfa başına 1 satır</item>
+        <item>Sayfa başına 2 satır</item>
+        <item>Sayfa başına 3 satır</item>
+        <item>Sayfa başına 5 satır</item>
+        <item>Mümkünse tamamen</item>
+        <item>Açılır pencere</item>
+    </string-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>Oto</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>Varsayılan</item>
+        <item>Kalın</item>
+    </string-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>Oto</item>
+        <item>Orijinal (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>Hiçbir zaman</item>
+        <item>Yalnızca pencerede</item>
+        <item>Yalnızca tam ekran</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>Ses değişikliği mevcut değil</item>
+    </string-array>
+</resources>

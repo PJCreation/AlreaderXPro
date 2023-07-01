@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bookmark_typesstr">
+        <item>Закладка</item>
+        <item>Цитата</item>
+        <item>Закладка + Цитата</item>
+    </string-array>
+    <string-array name="marker_typesstr">
+        <item>Не маркировать</item>
+        <item>Красный фон</item>
+        <item>Желтый фон</item>
+        <item>Зеленый фон</item>
+        <item>Подчеркивание</item>
+        <item>Подчеркивание красным</item>
+        <item>Подчеркивание желтым</item>
+        <item>Подчеркивание зеленым</item>
+    </string-array>
+    <string-array name="marker_underlinestr">
+        <item>Прямая</item>
+        <item>Рукописная</item>
+        <item>Волнистая</item>
+    </string-array>
+    <string-array name="setting_fonts_spacewidthstr">
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100% (По умолчанию)</item>
+        <item>110%</item>
+        <item>120%</item>
+    </string-array>
+    <string-array name="setting_pages_firstletterstr">
+        <item>Никогда</item>
+        <item>Каждый абзац</item>
+        <item>Первый абзац</item>
+        <item>Классика каждый абзац</item>
+        <item>Классика первый абзац</item>
+    </string-array>
+    <string-array name="settings_backup_type_arr">
+        <item>Настройки</item>
+        <item>Настройки + База прочитанного</item>
+        <item>Настройки + Ресурсы</item>
+        <item>Всё</item>
+    </string-array>
+    <string-array name="settings_books_dialogstr">
+        <item>Нет</item>
+        <item>Убрать пробелы в начале</item>
+        <item>Убрать пробелы, заменить тире</item>
+    </string-array>
+    <string-array name="settings_color_usestatusback_str">
+        <item>Никогда</item>
+        <item>Если есть скин</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="settings_common_animation_alwaysstr">
+        <item>Никогда</item>
+        <item>Только при свайпах</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="settings_common_animation_typestr">
+        <item>3D OpenGL тип 1</item>
+        <item>3D OpenGL тип 2</item>
+        <item>Сдвиг влево</item>
+        <item>Сдвиг вправо</item>
+        <item>Волна</item>
+        <item>Сдвиг двух страниц</item>
+    </string-array>
+    <string-array name="settings_common_backlighthardwaremin_str">
+        <item>1%</item>
+        <item>2% (По умолчанию)</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+    <string-array name="settings_common_backlightkeep_str">
+        <item>Как в системе</item>
+        <item>2 мин</item>
+        <item>3 мин</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>30 мин</item>
+        <item>Постоянно</item>
+    </string-array>
+    <string-array name="settings_common_fontscalestr">
+        <item>Как в системе</item>
+        <item>Самый мелкий</item>
+        <item>Мелкий</item>
+        <item>Нормальный</item>
+        <item>Большой</item>
+        <item>Еще больше</item>
+        <item>Самый большой</item>
+    </string-array>
+    <string-array name="settings_common_gammamodestr">
+        <item>Нет</item>
+        <item>Для всей страницы</item>
+        <item>Только для изображений</item>
+    </string-array>
+    <string-array name="settings_common_gammavaluestr">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0 (По умолчанию)</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+    </string-array>
+    <string-array name="settings_common_libraryfirstletter_str">
+        <item>Всегда</item>
+        <item>По умолчанию</item>
+        <item>Только в больших списках</item>
+        <item>Желательно не использовать</item>
+    </string-array>
+    <string-array name="settings_common_librarypath_str">
+        <item>Все папки</item>
+        <item>/Books</item>
+        <item>/Books + /Download</item>
+        <item>/Books + /Download + /Bluetooth</item>
+    </string-array>
+    <string-array name="settings_common_onyxeink_refreshratestr">
+        <item>Всегда</item>
+        <item>После 1 листания</item>
+        <item>После 2 листаний</item>
+        <item>После 3 листаний</item>
+        <item>После 5 листаний</item>
+        <item>После 7 листаний</item>
+        <item>После 10 листаний</item>
+        <item>После 20 листаний</item>
+        <item>После 50 листаний</item>
+        <item>После 75 листаний</item>
+        <item>После 100 листаний</item>
+        <item>Не обновлять</item>
+    </string-array>
+    <string-array name="settings_common_rotateonyxstr">
+        <item>Как в системе</item>
+        <item>Портретный вид</item>
+        <item>Ландшафтный вид</item>
+        <item>Портретный 180</item>
+        <item>Ландшафтный 180</item>
+    </string-array>
+    <string-array name="settings_common_rotatestr">
+        <item>Как в системе</item>
+        <item>Сенсор</item>
+        <item>Портрет + Сенсор</item>
+        <item>Ландшафт + Сенсор</item>
+        <item>Портрет</item>
+        <item>Ландшафт</item>
+        <item>Перевёрнутый Портрет</item>
+        <item>Перевёрнутый Ландшафт</item>
+    </string-array>
+    <string-array name="settings_common_syncmanualmode_str17">
+        <item>По сети</item>
+        <item>Файловый обмен</item>
+    </string-array>
+    <string-array name="settings_common_syncmanualmode_str21">
+        <item>По сети</item>
+        <item>Файловый обмен</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <string-array name="settings_common_syncmode_str17">
+        <item>Нет</item>
+        <item>По сети</item>
+        <item>Файловый обмен</item>
+    </string-array>
+    <string-array name="settings_common_syncmode_str21">
+        <item>Нет</item>
+        <item>По сети</item>
+        <item>Файловый обмен</item>
+        <item>WebDAV</item>
+        <item>FTP</item>
+    </string-array>
+    <string-array name="settings_common_ttspause_str">
+        <item>Нет</item>
+        <item>Короткая</item>
+        <item>Средняя</item>
+        <item>Длинная</item>
+    </string-array>
+    <string-array name="settings_common_ttsreadnotes_str">
+        <item>Нет</item>
+        <item>По месту</item>
+        <item>В конце предложения</item>
+    </string-array>
+    <string-array name="settings_common_ttsselectedtext_str">
+        <item>Читать</item>
+        <item>Начало чтения</item>
+    </string-array>
+    <string-array name="settings_common_ttstimer_str">
+        <item>Нет</item>
+        <item>5 мин</item>
+        <item>10 мин</item>
+        <item>15 мин</item>
+        <item>20 мин</item>
+        <item>25 мин</item>
+        <item>30 мин</item>
+        <item>40 мин</item>
+        <item>50 мин</item>
+        <item>60 мин</item>
+        <item>90 мин</item>
+    </string-array>
+    <string-array name="settings_interface_statusinfo_str">
+        <item>Имя файла</item>
+        <item>Название</item>
+        <item>Автор</item>
+        <item>Название + Автор</item>
+        <item>Название главы</item>
+        <item>Страницы главы</item>
+        <item>Время чтения</item>
+    </string-array>
+    <string-array name="settings_interface_theme21_str">
+        <item>Системная светлая</item>
+        <item>Системная темная</item>
+        <item>E Ink</item>
+        <item>Пользовательская</item>
+    </string-array>
+    <string-array name="settings_interface_theme28_str">
+        <item>Как в системе</item>
+        <item>Системная светлая</item>
+        <item>Системная темная</item>
+        <item>E Ink</item>
+        <item>Пользовательская</item>
+    </string-array>
+    <string-array name="settings_interface_theme_str">
+        <item>Системная светлая</item>
+        <item>E Ink</item>
+        <item>Пользовательская</item>
+    </string-array>
+    <string-array name="settings_interface_themebutton_str">
+        <item>Вариант 1</item>
+        <item>Вариант 2</item>
+        <item>Вариант 3</item>
+        <item>Вариант 4</item>
+    </string-array>
+    <string-array name="settings_manage_backstr">
+        <item>Системное действие</item>
+        <item>Меню</item>
+        <item>Скрыть</item>
+        <item>Назад + Скрыть</item>
+        <item>Назад + Меню</item>
+    </string-array>
+    <string-array name="settings_manage_backstr_onyx">
+        <item>Системное действие</item>
+        <item>Меню</item>
+        <item>Скрыть</item>
+        <item>Назад + Скрыть</item>
+        <item>Назад + Меню</item>
+        <item>Следующая страница</item>
+        <item>Нет действия</item>
+    </string-array>
+    <string-array name="settings_manage_doubletapsstr">
+        <item>Нет</item>
+        <item>Словарь</item>
+        <item>Копирование текста</item>
+        <item>Быстрое меню</item>
+        <item>Выделение текста</item>
+    </string-array>
+    <string-array name="settings_manage_longtapstr">
+        <item>Выделение текста</item>
+        <item>Словарь</item>
+        <item>Выделение + Словарь</item>
+        <item>Действия</item>
+    </string-array>
+    <string-array name="settings_manage_tts_swipes">
+        <item>Нет действия</item>
+        <item>Предыдущее/Следующее предложение</item>
+        <item>Следующее/Предыдущее предложение</item>
+        <item>Тон</item>
+        <item>Громкость</item>
+        <item>Скорость</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr">
+        <item>Плавная постраничная прокрутка</item>
+        <item>Плавная построчная прокрутка</item>
+        <item>Построчная прокрутка</item>
+        <item>Не использовать</item>
+    </string-array>
+    <string-array name="settings_manage_verticalswipestr_eink">
+        <item>Плавная постраничная прокрутка</item>
+        <item>Построчная прокрутка</item>
+        <item>Не использовать</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightleftstr_onyx">
+        <item>Нет</item>
+        <item>Холодный свет</item>
+        <item>Теплый свет</item>
+        <item>Оба уровня</item>
+        <item>Температура Холодный/Теплый</item>
+        <item>Температура Теплый/Холодный</item>
+    </string-array>
+    <string-array name="settings_naturalbacklightrightstr_onyx">
+        <item>Нет</item>
+        <item>Теплый свет</item>
+        <item>Холодный свет</item>
+        <item>Оба уровня</item>
+        <item>Температура Холодный/Теплый</item>
+        <item>Температура Теплый/Холодный</item>
+    </string-array>
+    <string-array name="settings_opendialogs_taps_str">
+        <item>Открыть</item>
+        <item>Свойства книги</item>
+    </string-array>
+    <string-array name="settings_pages_columncountstr">
+        <item>Авто</item>
+        <item>Одна</item>
+        <item>Две</item>
+        <item>Две в ландшафте</item>
+    </string-array>
+    <string-array name="settings_pages_imagescalestr">
+        <item>Авто</item>
+        <item>Оригинал (100%)</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_notesonpagestr">
+        <item>Нет</item>
+        <item>1 строка на странице</item>
+        <item>2 строки на странице</item>
+        <item>3 строки на странице</item>
+        <item>5 строк на странице</item>
+        <item>По возможности полностью</item>
+        <item>Всплывашка</item>
+    </string-array>
+    <string-array name="settings_pages_pagesizestr">
+        <item>Авто</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>1280</item>
+        <item>1536</item>
+        <item>1670</item>
+        <item>1860</item>
+        <item>2048</item>
+        <item>2340</item>
+        <item>3072</item>
+        <item>3420</item>
+        <item>4096</item>
+    </string-array>
+    <string-array name="settings_pages_progresswidthstr">
+        <item>По умолчанию</item>
+        <item>Толще</item>
+    </string-array>
+    <string-array name="settings_pages_skincalestr">
+        <item>Авто</item>
+        <item>Оригинал (100%)</item>
+        <item>200%</item>
+        <item>300%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="settings_pages_useheaderstr">
+        <item>Никогда</item>
+        <item>Только в окне</item>
+        <item>Только в полном экране</item>
+        <item>Всегда</item>
+    </string-array>
+    <string-array name="ttsvoices_unavailablestr">
+        <item>Смена голосов не доступна</item>
+    </string-array>
+</resources>

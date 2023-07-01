@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainlayout" android:paddingLeft="@dimen/dialog_padding_left" android:paddingTop="@dimen/dialog_padding_top" android:paddingRight="@dimen/dialog_padding_right" android:paddingBottom="@dimen/dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/buttonfake" android:background="@null" android:visibility="invisible" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/borderlayout" android:tag="paint" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/settingsconfirm">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.neverland.viscomp.dialogs.MyZoomImage android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/settingsconfirm" android:tag="paintbottom" android:layout_width="fill_parent" android:layout_height="@dimen/form_confirm_height" android:layout_marginTop="3.0dip" android:layout_alignParentBottom="true">
+        <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonCancel" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/font_icon_share" android:fontFamily="@font/materialiconsregular" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/label1" />
+        <com.neverland.viscomp.dialogs.MyTextView android:textAppearance="@style/StyleConfirmInfo" android:ellipsize="end" android:gravity="center" android:id="@id/label1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:maxLines="3" app:layout_constraintLeft_toRightOf="@id/buttonCancel" app:layout_constraintRight_toLeftOf="@id/buttonOk" />
+        <com.neverland.viscomp.dialogs.MenuButton android:textSize="@dimen/icon_font_size" android:id="@id/buttonOk" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/font_icon_cancel" android:fontFamily="@font/materialiconsregular" app:layout_constraintLeft_toRightOf="@id/label1" app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

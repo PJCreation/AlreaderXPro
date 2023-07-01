@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="button_height">72.0sp</dimen>
+    <dimen name="button_width_x5">360.0sp</dimen>
+    <dimen name="column_tile_width">180.0sp</dimen>
+    <dimen name="cover_metadata_height">128.0sp</dimen>
+    <dimen name="cover_metadata_width">85.0sp</dimen>
+    <dimen name="cover_tile_height">216.0sp</dimen>
+    <dimen name="cover_tile_width">144.0sp</dimen>
+    <dimen name="fileopen_column_width">420.0dip</dimen>
+    <dimen name="form_button_menu_height">103.0dip</dimen>
+    <dimen name="form_button_menu_height2x">206.0dip</dimen>
+    <dimen name="form_button_menu_height3x">309.0dip</dimen>
+    <dimen name="form_button_menu_heightpreview">432.0sp</dimen>
+    <dimen name="form_confirm_height">76.0dip</dimen>
+    <dimen name="horizontal_text_margin">11.0px</dimen>
+    <dimen name="icon_font_menu_size">36.0sp</dimen>
+    <dimen name="icon_font_menu_textsign_size">13.0sp</dimen>
+    <dimen name="icon_font_size">40.0dip</dimen>
+    <dimen name="list_item_height">92.0sp</dimen>
+    <dimen name="menu_textsize_big">20.0sp</dimen>
+    <dimen name="menu_textsize_medium">19.0sp</dimen>
+    <dimen name="menu_textsize_mediumfile">18.0sp</dimen>
+    <dimen name="menu_textsize_small">14.0sp</dimen>
+    <dimen name="menu_textsize_smallestfile">14.0sp</dimen>
+    <dimen name="menu_textsize_smallfile">16.0sp</dimen>
+    <dimen name="quick_panel_width">380.0sp</dimen>
+    <dimen name="quickpanel_height">144.0sp</dimen>
+    <dimen name="radiobutton_height">68.0sp</dimen>
+    <dimen name="radiobutton_height_x3">204.0sp</dimen>
+    <dimen name="select_menu_button_width">76.0sp</dimen>
+    <dimen name="spinner_textsize">22.0sp</dimen>
+    <dimen name="text_size_big_plus2">20.0sp</dimen>
+    <dimen name="text_size_bigger_plus3">21.0sp</dimen>
+    <dimen name="text_size_minus1">17.0sp</dimen>
+    <dimen name="text_size_minus3">15.0sp</dimen>
+    <dimen name="text_size_normal">18.0sp</dimen>
+    <dimen name="text_size_plus1">19.0sp</dimen>
+    <dimen name="text_size_plus4">22.0sp</dimen>
+    <dimen name="text_size_small_minus2">16.0sp</dimen>
+    <dimen name="text_size_smallest_minus4">13.0sp</dimen>
+</resources>
