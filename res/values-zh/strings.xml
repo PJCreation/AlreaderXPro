@@ -214,8 +214,7 @@
     <string name="dialog_librarys_expandseries">按系列划分</string>
     <string name="dialog_opds_add_catalog">添加OPDS</string>
     <string name="dialog_opds_add_catalog_description">输入库地址和访问参数</string>
-    <string name="dialog_opds_add_description">"所有OPD都支持基本和摘要授权。
-HTTP代理仅支持基本授权。 不幸的是，Socks代理不支持授权。"</string>
+    <string name="dialog_opds_add_description">"所有OPD都支持基本和摘要授权。HTTP代理仅支持基本授权。 不幸的是，Socks代理不支持授权。"</string>
     <string name="dialog_opds_book_is_downloaded_before">这本书已经下载</string>
     <string name="dialog_opds_command_copylink">复制链接</string>
     <string name="dialog_opds_command_packetdownload">全部下载</string>
