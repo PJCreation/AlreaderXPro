@@ -813,7 +813,7 @@
     <string name="setting_css_notesup">注释（如果可能）</string>
     <string name="setting_css_tables">支持表格</string>
     <string name="setting_css_text_indent">CSS文本缩进</string>
-    <string name="setting_css_usemargintopforfirstitem">对页面上的第一个项目使用上边距</string>
+    <string name="setting_css_usemargintopforfirstitem">对页面上的第一个项目应用上边距</string>
     <string name="setting_css_usesofthyphen">使用文档软连字符（如果存在）</string>
     <string name="setting_css_vertical_margin">CSS上下边距</string>
     <string name="setting_fb2_css">支持CSS</string>
@@ -873,7 +873,7 @@
     <string name="setting_manage_horizontalswipe">横向滑动</string>
     <string name="setting_manage_keyback">返回</string>
     <string name="setting_manage_keys">按键</string>
-    <string name="setting_manage_keyvoldown">音量降低</string>
+    <string name="setting_manage_keyvoldown">音量减小</string>
     <string name="setting_manage_keyvolup">音量增加</string>
     <string name="setting_manage_longdoubletap">双指长按</string>
     <string name="setting_manage_longtapforlink">长按打开链接</string>
@@ -920,7 +920,7 @@
     <string name="setting_nightimagefilter">图片夜间模式</string>
     <string name="setting_page_clockundertext">时钟背景</string>
     <string name="setting_pages">页面</string>
-    <string name="setting_pages_batteryonprogress">进度条电量</string>
+    <string name="setting_pages_batteryonprogress">进度条电量标记</string>
     <string name="setting_pages_columncount">正文分列</string>
     <string name="setting_pages_contentonprogress">标记进度内容</string>
     <string name="setting_pages_filledprogress">填充进度条</string>
@@ -1033,7 +1033,7 @@
     <string name="tooltip_book_share">分享书籍</string>
     <string name="tooltip_cancel">取消</string>
     <string name="tooltip_close">关闭</string>
-    <string name="tooltip_command_top100">前100名</string>
+    <string name="tooltip_command_top100">Top 100</string>
     <string name="tooltip_copy_bookinfo">复制书籍信息</string>
     <string name="tooltip_file_search">文件搜索</string>
     <string name="tooltip_menu_allbookmarksview">查看书签</string>
@@ -1089,7 +1089,7 @@
     <string name="tooltip_toneplus">音调+</string>
     <string name="tooltip_volumeminus">音量-</string>
     <string name="tooltip_volumeplus">音量+</string>
-    <string name="tooltip_wait">稍等</string>
+    <string name="tooltip_wait">稍候</string>
     <string name="tts_error_audionmanager">音频管理器错误</string>
     <string name="tts_error_eof">这本书已经读过了，朗读停止</string>
     <string name="tts_error_incorrectcommand">命令无效！</string>
@@ -1099,5 +1099,5 @@
     <string name="tts_speak_image">- 插图 -</string>
     <string name="tts_speak_notes_body_start">- 笔记开始: -</string>
     <string name="tts_speak_notes_body_stop">- 笔记结束！ -</string>
-    <string name="tts_speak_warning_sleep_timer">(阅读文本将停止一分钟)</string>
+    <string name="tts_speak_warning_sleep_timer">(阅读将停止一分钟)</string>
 </resources>
